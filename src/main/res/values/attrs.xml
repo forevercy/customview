@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyToggleButton">
+        <attr name="tb_background" format="reference" />
+        <attr name="tb_slide_btn" format="reference" />
+        <attr name="tb_curr_state" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageTextView">
+        <attr name="image" format="reference" />
+        <attr name="text" format="reference|string" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="reference|color" />
+    </declare-styleable>
+
+    <declare-styleable name="FlowLayout">
+        <attr name="gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CouponView">
+        <attr name="cv_image" format="reference" />
+        <attr name="cv_background" format="reference|color" />
+        <attr name="cv_topic" format="reference|string" />
+        <attr name="cv_number" format="reference|string" />
+        <attr name="cv_content" format="reference|string" />
+        <attr name="cv_deadline" format="reference|string" />
+    </declare-styleable>
+
+    <declare-styleable name="LedView">
+        <attr name="lv_text" format="reference|string" />
+        <attr name="lv_point_color" format="reference|color" />
+        <attr name="lv_point_space" format="reference|dimension" />
+        <attr name="lv_scroll_speed" >
+            <enum name="slow" value="300" />
+            <enum name="normal" value="200" />
+            <enum name="fast" value="100" />
+        </attr>
+        <attr name="lv_scroll_direction" >
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="WaveProgressView">
+        <attr name="wpv_max_progress" format="integer" />
+        <attr name="wpv_current_progress" format="integer" />
+        <attr name="wpv_progress_unit" format="reference|string" />
+        <attr name="wpv_text_color" format="reference|color" />
+        <attr name="wpv_text_size" format="reference|dimension" />
+        <attr name="wpv_wave_color" format="reference|color" />
+        <attr name="wpv_wave_width" format="reference|dimension" />
+        <attr name="wpv_wave_height" format="reference|dimension" />
+        <attr name="wpv_fluctuation_speed" >
+            <enum name="slow" value="300" />
+            <enum name="normal" value="200" />
+            <enum name="fast" value="100" />
+        </attr>
+        <attr name="wpv_fluctuation_direction" >
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CircleProgress">
+        <attr name="cp_sweep_value" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SlideLayout">
+        <attr name="sl_slide_direction" >
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="sl_auto_reset" format="boolean" />
+    </declare-styleable>
+
+</resources>

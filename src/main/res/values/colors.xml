@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="swipe_menu_background">#FF4081</color>
+    <color name="ledview_default_paint_color">#00FF00</color>
+    <color name="waveprogressview_text_color">#FFFFFF</color>
+    <color name="waveprogressview_wave_color">#00FF00</color>
+    <color name="color_ECF1F0">#ECF1F0</color>
+</resources>

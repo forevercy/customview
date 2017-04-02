@@ -77,4 +77,12 @@
         <attr name="sl_auto_reset" format="boolean" />
     </declare-styleable>
 
+    <declare-styleable name="RoundedImageView">
+        <attr name="topLeftRadius" format="reference|dimension" />
+        <attr name="topRightRadius" format="reference|dimension" />
+        <attr name="bottomLeftRadius" format="reference|dimension" />
+        <attr name="bottomRightRadius" format="reference|dimension" />
+        <attr name="radius" format="reference|dimension" />
+    </declare-styleable>
+
 </resources>
